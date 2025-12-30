@@ -191,6 +191,8 @@ gsap.utils.toArray(".servicespage [data-speed]").forEach(el => {
 
 
 // Portfolio page change bg
+if (window.matchMedia('(min-width: 1280px)').matches)
+  { // do something here  
 
 $(function() {
   $('.billy').hover(function() {
@@ -262,7 +264,7 @@ $(function() {
     $(':root').css({'--pink': '#fee6db', '--green': '#00363e'});
   });
 });
-
+  }
 // ---------------------
 var controller = new ScrollMagic.Controller
 var fadeup = document.getElementsByClassName("fadeup");
