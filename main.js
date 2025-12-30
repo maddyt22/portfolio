@@ -254,6 +254,13 @@ $(function() {
     // on mouseout, reset the background colour
     $(':root').css({'--pink': '#fee6db', '--green': '#00363e'});
   });
+  $('.liyf').hover(function() {
+    $(':root').css({'--pink': '#A34D2F', '--green': '#fee6db'});
+  }, 
+  function() {
+    // on mouseout, reset the background colour
+    $(':root').css({'--pink': '#fee6db', '--green': '#00363e'});
+  });
 });
 
 // ---------------------
@@ -375,6 +382,7 @@ contactcontainer.addEventListener('mouseleave', function(e) {
   });
  
 });
+
 
 
 
