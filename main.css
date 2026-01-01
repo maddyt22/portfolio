@@ -1245,7 +1245,7 @@ height: 100%;
     
   }
   .cinderellapage p {
-      color: #1d1e23 !important;
+      color: #fff !important;
     }
     /* ------------------------Fiesta Page------------------------ */
 .fiestapage header {
@@ -1327,10 +1327,7 @@ top: 0;
         --pink: #ee937c;
         --green: #fff;
       }
-      .publishingpage  {
-        background-color: #ee937c;
-        
-      }
+    
       .publishingpage p{
         color: #FEEFE9 !important;
         }
@@ -1534,11 +1531,11 @@ bottom: 0;
     width: 50%;
   }
   .hero {
-  .starsscene {
+height: 100dvh;
+}
+  .hero .starsscene {
     top: 30%;
   }
-}
-
   .homepageabout {
     padding: 100px 80px;
   }
@@ -1606,8 +1603,11 @@ bottom: 0;
  
  }
  .projectheader img {
-    padding-right: 0px;
+    padding-right: 60px;
 
+  }
+  .projectheader video{
+    padding-right: 60px;
   }
  .projectdescription {
   padding: 100px 10px 50px 60px;
@@ -1618,6 +1618,9 @@ bottom: 0;
 }
 .moreprojectswrap{
   padding: 100px 60px;
+}
+.seemoreprojects{
+  padding-top: 100px;
 }
 }
 
@@ -1735,8 +1738,11 @@ bottom: 0;
   .projectheader img {
       padding-right: 0;
     }
+    .projectheader video{
+      padding-right: 0px;
+    }
   .projectdescription {
-    padding: 0;
+    padding: 0 0 20px;
   }
   .projectgrid {
     padding: 20px;
@@ -1758,6 +1764,9 @@ bottom: 0;
   }
   .projectoverflowimages {
     width: 100%;
+  }
+  .seemoreprojects{
+    padding-top: 50px;
   }
   .seemoreprojects h1{
   
@@ -1787,4 +1796,5 @@ bottom: 0;
    #js-cursor {
     display: none !important;
    }
+
 }
