@@ -540,6 +540,9 @@ justify-self: flex-end;
    padding: 200px;
     
   }
+  .homepageabout img{
+    width: 30vw;
+  }
   .aboutgrid {
     width: 100%;
     display: -ms-grid;
