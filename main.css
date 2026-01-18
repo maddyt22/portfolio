@@ -1679,6 +1679,9 @@ height: 100dvh;
  .footerright {
   width: 30%;
  }
+ .aboutpage{
+  padding-top: 200px;
+ }
  .aboutsection1 {
   padding: 100px 80px;
  }
@@ -1687,6 +1690,9 @@ height: 100dvh;
  }
  .aboutmetext {
   padding: 0;
+ }
+ .portfoliocontent{
+  padding-top: 200px;
  }
  .project {
   width: 100%;
@@ -1761,6 +1767,9 @@ height: 100dvh;
  .footerright {
   width: 30%;
  }
+ .aboutpage{
+  padding-top: 150px;
+ }
  .aboutsection1 {
   padding: 100px 80px;
  }
@@ -1772,6 +1781,9 @@ height: 100dvh;
  }
  .project {
   width: 100%;
+ }
+ .portfoliocontent{
+  padding-top: 150px;
  }
  .projectheader {
   height: unset;
@@ -1882,7 +1894,7 @@ height: unset;
     width: 50%;
   }
   .aboutsection1 {
-    padding: 50px;
+    padding: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1893,13 +1905,14 @@ height: unset;
     padding: 0;
     width: 80%;
     margin: auto;
-  
+    margin-bottom: 20px;
 
   }
 
   .aboutmetext {
     padding: 0;
     width: 100%;
+    margin-top: 40px;
   }
 
   .portfolioprojects{
