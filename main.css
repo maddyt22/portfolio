@@ -1896,13 +1896,7 @@ height: unset;
   
 
   }
-  .aboutmepic img {
-    aspect-ratio: 1/1;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: top;
-       object-position: top;
-  }
+
   .aboutmetext {
     padding: 0;
     width: 100%;
