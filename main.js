@@ -1,3 +1,42 @@
+const pageContainer = document.querySelector("body");
+
+/* SMOOTH SCROLL */
+
+
+
+const scroller = new Lenis({
+  duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    lerp: 0.05,
+    smooth: 2,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    wheelMultiplier: 1,
+    infinite: false,
+    autoResize: true,
+})
+
+scroller.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
+
+function raf(time) {
+  scroller.raf(time)
+  requestAnimationFrame(raf)
+}
+scroller.on('scroll', ScrollTrigger.update)
+
+gsap.ticker.add((time)=>{
+  scroller.raf(time * 1000)
+})
+
+gsap.ticker.lagSmoothing(0)
+
+requestAnimationFrame(raf)
+
+
+
+
 
 
 
