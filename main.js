@@ -338,28 +338,6 @@ var startl = gsap.timeline()
     repeatRefresh: true // gets a new random x and y value on each repeat
   })
 
-gsap.set(".laptopscroll", {height: "70vh"})
-
-  const page = document.querySelector(".lbscroll");
-  console.log(scroll.offsetWidth)
-  
-
-  
- gsap.to(page, {
-  xPercent: 70 * (page.scrollWidth - 1),
-  duration: 3,
-    ease: "none",
-    scrollTrigger: {
-      trigger: ".laptopscroll",
-      start: "top 20%",
-      pin: true,
-     
-      invalidateOnRefresh: true,
-      scrub:true
-    }
-  });
-  
-
 
 
 
